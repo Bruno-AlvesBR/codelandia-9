@@ -44,6 +44,11 @@ export const ContainerApresentation = styled.section`
                 border: .5px solid #333333;
                 padding: 13px 25px;
                 margin: 0 10px;
+                transition: .2s all ease;
+                &:hover 
+                {
+                    background-color: #505050;
+                }
             }
         }
     }
@@ -181,6 +186,13 @@ export const ContainerProjects = styled.section`
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            transition: .2s all ease;
+            z-index: 1;
+            &:hover 
+            {
+                transform: scale(1.05);
+                z-index: 2;
+            }
             img 
             {
                 width: 100%;

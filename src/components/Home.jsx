@@ -26,7 +26,7 @@ export default function Home()
             <ContainerAboutMe id='about'>
                 <h1>Sobre mim</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+                    Atualmente cursando engenharia de software na UTFPR, pretendendo me especializar na área front end, futuramente, com ambições de integrar-me com a área back end. Tenho uma grande paixão por tecnologia, portanto estou sempre estudando e praticando para obter sempre uma boa experiência.
                 </p>
             </ContainerAboutMe>
             <ContainerContacts id='contacts'>

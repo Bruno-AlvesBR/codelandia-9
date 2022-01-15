@@ -13,12 +13,12 @@ export const Projects = [
         title: "Projeto contendo apresentação de um site com o layout de um social website.", 
         url: require("../images/Social.png"),
         href: "https://bruno-alvesbr.github.io/reactjs-social/",
-        tecnologies: "ReactJs, Api, Html5, Styled-components"
+        tecnologies: "ReactJs, Html5, Styled-components"
     },{
         title: "Projeto contendo apresentação de um site simples com intuito de testar validação de formulário.", 
         url: require("../images/Home.png"),
         href: "https://bruno-alvesbr.github.io/Reactjs_Home-validation/",
-        tecnologies: "ReactJs, Api, Html5, Styled-components"
+        tecnologies: "ReactJs, Html5, Styled-components, react-hook-form"
     },{
         title: "Projeto desenvolvido com base nos desafios da Codelândia 1 de Iuricode.", 
         url: require("../images/Codelandia-1.png"),

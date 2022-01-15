@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import { Nav } from '../layout/Navbar-styled';
 export default function Navbar() 
 {
@@ -10,7 +9,7 @@ export default function Navbar()
     return (
         <Nav>
             <div className="container_navbar">
-                <a className='logo' href="#home">Portifólio</a>
+                <a className='logo' href="">Portifólio</a>
 
                 <div onClick={toggleIcon} className="menu_icon">
                     <i className={icon ? 'fas fa-times' : 'fas fa-bars'} />
