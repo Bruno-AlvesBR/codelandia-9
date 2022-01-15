@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
-import { ContainerHome, ContainerApresentation, ContainerAboutMe, 
+import { ContainerHome, ContainerApresentation, ContainerAboutMe, ContainerScroll, 
     ContainerContacts, ContainerProjects, ContainerServices, ContainerSkills } from '../layout/Home-styled';
 import ImgApresentation from '../images/apresentation.svg';
 import { Projects } from '../api/Projects-api';
@@ -11,7 +11,9 @@ export default function Home()
 {
     return (
         <ContainerHome>
-            <ScrollTop />
+            <ContainerScroll>
+                <ScrollTop />
+            </ContainerScroll>
             <ContainerApresentation id='home'>
                 <div className="box_text_apresentation">
                     <h1>Olá, eu sou o <br /> Bruno Alves :)</h1>

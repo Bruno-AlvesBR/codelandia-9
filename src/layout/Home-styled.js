@@ -60,10 +60,12 @@ export const ContainerApresentation = styled.section`
     {
         margin: 0;
         flex-wrap: wrap;
-        justify-content: center;
         img 
         {
             order: -1;
+            width: 200px;
+            display: flex;
+            margin: auto;
         }
         .box_text_apresentation
         {
@@ -341,4 +343,7 @@ export const ContainerSkills = styled.section`
             }
         }
     }
+`;
+export const ContainerScroll = styled.section`
+    z-index: 555;
 `;

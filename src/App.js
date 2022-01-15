@@ -14,7 +14,7 @@ export default function App()
 
       <main>
         <Routes>
-          <Route path="/test/" element={<Home />} />
+          <Route path="/codelandia-9/" element={<Home />} />
         </Routes>
       </main>
 

@@ -18,7 +18,7 @@ export const Projects = [
         title: "Projeto contendo apresentação de um site simples com intuito de testar validação de formulário.", 
         url: require("../images/Home.png"),
         href: "https://bruno-alvesbr.github.io/Reactjs_Home-validation/",
-        tecnologies: "ReactJs, Html5, Styled-components, react-hook-form"
+        tecnologies: "ReactJs, Html5, Styled-components, hook-form"
     },{
         title: "Projeto desenvolvido com base nos desafios da Codelândia 1 de Iuricode.", 
         url: require("../images/Codelandia-1.png"),
