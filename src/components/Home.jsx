@@ -1,21 +1,28 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ContainerHome, ContainerApresentation, ContainerAboutMe, ContainerScroll, 
     ContainerContacts, ContainerProjects, ContainerServices, ContainerSkills } from '../layout/Home-styled';
 import ImgApresentation from '../images/apresentation.svg';
 import { Projects } from '../api/Projects-api';
 import ScrollTop from './ScrollTop';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 export default function Home() 
 {
+    useEffect(() =>
+    {   
+        Aos.init({ duration: 1000 })
+    }, [])
+
     return (
         <ContainerHome>
             <ContainerScroll>
                 <ScrollTop />
             </ContainerScroll>
             <ContainerApresentation id='home'>
-                <div className="box_text_apresentation">
+                <div data-aos="fade-up" className="box_text_apresentation">
                     <h1>Olá, eu sou o <br /> Bruno Alves :)</h1>
                     <p>Desenvolvedor Front-End</p>
                     <span>
@@ -23,15 +30,15 @@ export default function Home()
                         <a href='#contacts'>Entrar em contato</a>
                     </span>
                 </div>
-                <img src={ImgApresentation} alt='image apresentation' />
+                <img data-aos="fade-left" src={ImgApresentation} alt='image apresentation' />
             </ContainerApresentation>
             <ContainerAboutMe id='about'>
-                <h1>Sobre mim</h1>
-                <p>
+                <h1 data-aos="fade-up">Sobre mim</h1>
+                <p data-aos="fade-up">
                     Atualmente cursando engenharia de software na UTFPR, pretendendo me especializar na área front end, futuramente, com ambições de integrar-me com a área back end. Tenho uma grande paixão por tecnologia, portanto estou sempre estudando e praticando para obter sempre uma boa experiência.
                 </p>
             </ContainerAboutMe>
-            <ContainerContacts id='contacts'>
+            <ContainerContacts data-aos="fade-up" id='contacts'>
                 <ul>
                     <li>
                         <i className='bx bx-happy-alt' />
@@ -56,8 +63,8 @@ export default function Home()
                 </ul>
             </ContainerContacts>
             <ContainerProjects id='projects'>
-                <h1 className='title_projects'>Projetos</h1>
-                <div className="box_all_projects">
+                <h1 data-aos="fade-up" className='title_projects'>Projetos</h1>
+                <div data-aos="fade-up"  className="box_all_projects">
                     {Projects.map((item, key) =>
                     {
                         return(
@@ -74,8 +81,8 @@ export default function Home()
                 </div>
             </ContainerProjects>
             <ContainerServices id='services'>
-                <h1>Serviços</h1>
-                <ul>
+                <h1 data-aos="fade-up">Serviços</h1>
+                <ul data-aos="fade-up">
                     <li>
                         <span>
                             <i className='bx bx-chevron-left' />
@@ -98,8 +105,8 @@ export default function Home()
                 </ul>
             </ContainerServices>
             <ContainerSkills id='skills'>
-                <h1>Minhas skills</h1>
-                <ul>
+                <h1 data-aos="fade-up">Minhas skills</h1>
+                <ul data-aos="fade-up">
                     <li><i className='bx bxl-react' /></li>
                     <li>API</li>
                     <li><i className='bx bxl-html5' /></li>

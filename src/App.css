@@ -15,4 +15,5 @@ body
   position: relative;
   font-size: 62.5%;
   background: #212121;
+  overflow-x: hidden;
 }
