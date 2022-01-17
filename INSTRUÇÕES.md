@@ -1,6 +1,8 @@
-# ATENÇÃO:
+Link gh-pages: https://bruno-alvesbr.github.io/codelandia-9/
 
-# Para rodar o projeto, faça os seguintes passos:
+OU
+
+# Para rodar o projeto em sua máquina, faça os seguintes passos:
 
 ## # Faça um fork do projeto.
 ## # Faça um git clone do fork em sua máquina.
