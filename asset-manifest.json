@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/codelandia-9/static/css/main.a1910d61.css",
+    "main.js": "/codelandia-9/static/js/main.df65c765.js",
+    "static/media/Tecnologies.png": "/codelandia-9/static/media/Tecnologies.b102324415d55681fc99.png",
+    "static/media/Codelandia-2.png": "/codelandia-9/static/media/Codelandia-2.e98882b295988038a19b.png",
+    "static/media/Social.png": "/codelandia-9/static/media/Social.7ec63213b59804bbd44d.png",
+    "static/media/Codelandia-1.png": "/codelandia-9/static/media/Codelandia-1.48e77c530bb66a05aba2.png",
+    "static/media/Codelandia-3.png": "/codelandia-9/static/media/Codelandia-3.94c4e4bd850630da872d.png",
+    "static/media/Photos.png": "/codelandia-9/static/media/Photos.9ed3069ee33a30746cfc.png",
+    "static/media/Home.png": "/codelandia-9/static/media/Home.2321f626ae13ef68358e.png",
+    "static/media/Codelandia-9.png": "/codelandia-9/static/media/Codelandia-9.91307c69bca9bd872f51.png",
+    "static/media/apresentation.svg": "/codelandia-9/static/media/apresentation.8eb08a293b9d5b463737817ec33fabd9.svg",
+    "index.html": "/codelandia-9/index.html",
+    "main.a1910d61.css.map": "/codelandia-9/static/css/main.a1910d61.css.map",
+    "main.df65c765.js.map": "/codelandia-9/static/js/main.df65c765.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1910d61.css",
+    "static/js/main.df65c765.js"
+  ]
+}
