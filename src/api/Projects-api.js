@@ -34,5 +34,10 @@ export const Projects = [
         url: require("../images/Codelandia-3.png"),
         href: "https://bruno-alvesbr.github.io/codelandia-3/",
         tecnologies: "ReactJs, Api, Html5, Styled-components"
+    },{
+        title: "Projeto desenvolvido com base nos desafios da Codelândia 9 de Iuricode.", 
+        url: require("../images/Codelandia-9.png"),
+        href: "https://github.com/Bruno-AlvesBR/codelandia-9/",
+        tecnologies: "ReactJs, Api, Html5, Styled-components"
     }
 ]

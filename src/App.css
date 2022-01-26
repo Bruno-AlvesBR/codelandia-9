@@ -17,3 +17,16 @@ body
   background: #212121;
   overflow-x: hidden;
 }
+main 
+{
+  min-height: 650px;
+  width: 100%;
+  max-width: 1550px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+footer 
+{
+  background-color: #171717;
+}

@@ -1,19 +1,17 @@
 import styled from "styled-components";
 
 export const ContainerHome = styled.section`
-    width: 100%;
-    max-width: 980px;
     display: flex;
     flex-direction: column;
-    margin: auto;
 `;
 export const ContainerApresentation = styled.section`
     width: 100%;
+    max-width: 1200px;
     min-height: 650px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: -50px 0;
+    margin: auto;
     padding: 10px;
     .box_text_apresentation
     {
@@ -83,13 +81,12 @@ export const ContainerApresentation = styled.section`
 `;
 export const ContainerAboutMe = styled.section`
     min-height: 250px;
-    width: 100%;
+    max-width: 750px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    max-width: 650px;
-    margin: auto;
     padding: 10px;
     h1 
     {
@@ -105,8 +102,6 @@ export const ContainerAboutMe = styled.section`
 `;
 export const ContainerContacts = styled.section`
     min-height: 350px;
-    width: 100%;
-    max-width: 650px;
     display: flex;
     margin: auto;
     ul 
@@ -159,13 +154,10 @@ export const ContainerContacts = styled.section`
 `;
 export const ContainerProjects = styled.section`
     min-height: 650px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    max-width: 980px;
-    margin: auto;
     .title_projects 
     {
         font-size: 2rem;
@@ -246,13 +238,10 @@ export const ContainerProjects = styled.section`
 `;
 export const ContainerServices = styled.section`
     min-height: 400px;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    max-width: 980px;
-    margin: auto;
     h1 
     {
         font-size: 2rem;
@@ -306,13 +295,10 @@ export const ContainerServices = styled.section`
 `;
 export const ContainerSkills = styled.section`
     min-height: 350px;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width: 1300px;
-    margin: auto;
     h1 
     {
         font-size: 2rem;

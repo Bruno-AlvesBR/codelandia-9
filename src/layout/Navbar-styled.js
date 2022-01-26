@@ -6,7 +6,7 @@ export const Nav = styled.nav`
     .container_navbar 
     {
         width: 100%;
-        max-width: 980px;
+        max-width: 1200px;
         display: flex;
         margin: auto;
         height: 80px;

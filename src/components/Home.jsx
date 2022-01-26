@@ -87,7 +87,7 @@ export default function Home()
                         <span>
                             <i className='bx bx-chevron-left' />
                             <i className='bx bx-chevron-right' />
-                        </span>
+                        </span> 
                         <h2>Criação <br />de sites</h2>
                     </li>
                     <li>
