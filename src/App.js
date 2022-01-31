@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 export default function App() 
 {
   return (
@@ -11,13 +12,11 @@ export default function App()
       <header>
         <Navbar />
       </header>
-
       <main>
         <Routes>
           <Route path="/codelandia-9/" element={<Home />} />
         </Routes>
       </main>
-
       <footer>
         <Footer />
       </footer>

@@ -1,14 +1,27 @@
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import React, { useEffect } from 'react';
-import { ContainerHome, ContainerApresentation, ContainerAboutMe, ContainerScroll, 
-    ContainerContacts, ContainerProjects, ContainerServices, ContainerSkills } from '../layout/Home-styled';
+import React, { 
+    useEffect 
+} from 'react';
+import { 
+    ContainerHome, 
+    ContainerApresentation, 
+    ContainerAboutMe, 
+    ContainerScroll, 
+    ContainerContacts, 
+    ContainerProjects,
+    Card, 
+    ContainerServices, 
+    ContainerSkills,
+    Box_text_apresentation
+} from '../layout/Home-styled';
 import ImgApresentation from '../images/apresentation.svg';
 import { Projects } from '../api/Projects-api';
 import ScrollTop from './ScrollTop';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+
 export default function Home() 
 {
     useEffect(() =>
@@ -22,14 +35,14 @@ export default function Home()
                 <ScrollTop />
             </ContainerScroll>
             <ContainerApresentation id='home'>
-                <div data-aos="fade-up" className="box_text_apresentation">
+                <Box_text_apresentation data-aos="fade-up">
                     <h1>Olá, eu sou o <br /> Bruno Alves :)</h1>
                     <p>Desenvolvedor Front-End</p>
                     <span>
                         <a href='./file/Bruno-Alves.pdf' download>Download CV</a>
                         <a href='#contacts'>Entrar em contato</a>
                     </span>
-                </div>
+                </Box_text_apresentation>
                 <img data-aos="fade-left" src={ImgApresentation} alt='image apresentation' />
             </ContainerApresentation>
             <ContainerAboutMe id='about'>
@@ -64,21 +77,19 @@ export default function Home()
             </ContainerContacts>
             <ContainerProjects id='projects'>
                 <h1 data-aos="fade-up" className='title_projects'>Projetos</h1>
-                <div data-aos="fade-up"  className="box_all_projects">
-                    {Projects.map((item, key) =>
-                    {
-                        return(
-                            <div key={key} className="card_project">
-                                <img src={item.url} alt='' />
-                                <span>
-                                    <h1>{item.title}</h1>
-                                    <p>Tecnologias: {item.tecnologies}</p>
-                                    <a target="_blank" href={item.href}>Acessar</a>
-                                </span>
-                            </div>
-                        )
-                    })}
-                </div>
+                {Projects.map((item, key) =>
+                {
+                    return(
+                        <Card key={key}>
+                            <img src={item.url} alt='' />
+                            <span>
+                                <h1>{item.title}</h1>
+                                <p>Tecnologias: {item.tecnologies}</p>
+                                <a target="_blank" href={item.href}>Acessar</a>
+                            </span>
+                        </Card>
+                    ) 
+                })}
             </ContainerProjects>
             <ContainerServices id='services'>
                 <h1 data-aos="fade-up">Serviços</h1>
